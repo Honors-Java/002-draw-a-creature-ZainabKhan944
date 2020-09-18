@@ -14,7 +14,9 @@ void draw() {
   background(250);
   stroke(0);
  rectMode(CORNER);
+ // Colors the legs and tail white
  fill(250)
+ // This coding makes up the legs and tail
  rect(235,210, 10, 40);
  rect(215,215, 10, 40);
  rect(150,210, 10, 40);
@@ -23,15 +25,18 @@ void draw() {
  ellipseMode(CENTER); 
 
 
- 
+// This makes the body, and head color white.
 fill(250)
+//This coding makes up the body and head shapes
 ellipse(200, 200, 125, 50);
 ellipse(249, 157, 50, 50);
 fill(0)
+// This makes the nose
 ellipse(249, 165, 5, 5);
- 
 
-fill(0)
+// Colors the whiskers black
+fill(0) 
+// This coding makes up the whiskers
 rect(240,160, 2, 2);
 rect(235,157, 2, 2);
 rect(240,165, 2, 2);
@@ -45,26 +50,24 @@ rect(260,165, 2, 2);
 rect(260,157, 2, 2);
 rect(260,175, 2, 2);
 
- // comment
+ // This colors the eyes, and ears black
  fill(0)
+ // These make the eyes
  ellipse(242, 147, 5, 8);
  ellipse(260, 147, 5, 8);
 
-fill(0)		 
+// This coding makes up the ears		 
 rect(232,132, 2, 2);
 rect(237,120, 2, 2);
 rect(241,132, 2, 2);
 
-fill(0)
 rect(252,132, 2, 2);
 rect(257,120, 2, 2);
 rect(261,132, 2, 2);
 
-fill(0)
 rect(235,126, 2, 2);
 rect(240,126, 2, 2);
 
-fill(0)
 rect(255,126, 2, 2);
 rect(260,126, 2, 2);
 }
